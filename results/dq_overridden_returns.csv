@@ -1,0 +1,14 @@
+ticker,trade_date,prev_close,close,next_close,raw_ret,reason
+DISCA,2014-08-07,83.02,40.975,42.28,-0.5064,corporate action
+DISCK,2014-08-07,81.22,39.78,40.96,-0.5102,corporate action
+BAX,2015-07-01,69.93,38.86,38.3,-0.4443,corporate action
+NI,2015-07-02,45.45,16.99,16.84,-0.6262,corporate action
+EBAY,2015-07-20,66.29,28.57,28.6,-0.569,corporate action
+LNT,2016-05-19,35.35,17.87,35.91,-0.4945,bad tick
+LNT,2016-05-20,17.87,35.91,35.75,1.0095,reversal of bad tick
+FLR,2017-09-14,40.14,50.62,40.43,0.2611,bad tick
+MRO,2017-09-14,11.91,16.02,12.0,0.3451,bad tick
+NWL,2017-09-14,44.22,30.81,43.2,-0.3033,bad tick
+FLR,2017-09-15,50.62,40.43,40.2,-0.2013,reversal of bad tick
+MRO,2017-09-15,16.02,12.0,12.02,-0.2509,reversal of bad tick
+NWL,2017-09-15,30.81,43.2,42.99,0.4021,reversal of bad tick

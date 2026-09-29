@@ -1,0 +1,12 @@
+check_name,passed
+"no duplicate (ticker, date) rows",true
+no daily return beyond +/-100% after cleaning,true
+known spin-offs removed (EBAY 2015-07-20 return is NULL),true
+market index has >= 400 stocks every day,true
+no look-ahead: holding month is always after formation month,true
+long leg weights sum to +1 and short leg to -1 every month,true
+each quintile holds >= 80 stocks,true
+turnover is between 0 and 4 (every name flips side = 4),true
+long-short gross return = long leg - short leg,true
+pairs z-scores use formation data only (trading starts after formation_end),true
+no NULL or non-finite strategy returns,true

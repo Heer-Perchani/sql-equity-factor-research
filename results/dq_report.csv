@@ -1,0 +1,12 @@
+check_name,n_rows,action
+total rows,619040,
+distinct tickers,505,
+trading days in calendar,1259,
+"duplicate (ticker, date)",0,must be 0
+missing open/high/low,11,excluded from overnight/intraday returns
+zero volume,4,kept; excluded from liquidity factor
+inconsistent OHLC bar,12,kept (close is still usable)
+gap vs trading calendar,17,multi-day return set to NULL
+bad tick (spike + revert),4,return and next-day return set to NULL
+corporate action (spin-off),5,return set to NULL
+tickers with < 1 year data,5,excluded from per-stock risk stats

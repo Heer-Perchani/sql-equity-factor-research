@@ -1,0 +1,7 @@
+.venv/
+data/
+*.duckdb
+*.duckdb.wal
+__pycache__/
+.DS_Store
+INTERVIEW_PREP.md
